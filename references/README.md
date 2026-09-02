@@ -25,6 +25,7 @@
 | 判定题型、选型口诀 | `题型识别与模型选型.md` |
 | 查具体算法 | `算法索引.md`，再读取一个匹配的 `../assets/*.md` |
 | 国赛规则、提交材料、AI 合规 | `2026国赛规则与AI合规.md` |
+| 用户偏好、既往做题返工复盘 | `实战复盘与用户偏好.md` |
 | 进度汇报、下一步建议、论文复查 | `进度状态机与主动建议.md` |
 | Python/MATLAB 实现 | `roles/编程手/references/工作流程.md` |
 | MATLAB 工具箱与出图 | `roles/编程手/references/MATLAB规范.md` |
@@ -34,6 +35,7 @@
 | 论文结构 | `roles/论文手/references/章节模板.md` |
 | 论文写作、图表公式、三类检验、降 AI | `论文写作与检验规范.md` |
 | Word 格式 | `roles/论文手/references/论文格式规范.md` |
+| 用户个人参考论文版式 | `roles/论文手/references/用户版式偏好.md` |
 | LaTeX 格式 | `roles/论文手/references/LaTeX格式规范.md` |
 
 ## 工具

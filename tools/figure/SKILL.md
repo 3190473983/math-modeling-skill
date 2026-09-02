@@ -107,6 +107,8 @@ setup_style(journal='general', lang='zh', serif_for_zh=True)   # 中文宋体混
 
 数学建模场景（两种语言均适用）：按三类图体系生成（原始数据图 / 过程图 / 结果图），每类至少 3 张、合计至少 9 张，且每个子问题在三类中各至少 1 张。**每类内部图型要有变化**（如原始数据类至少含 1 张分布图 + 1 张关系图），全文图型种类 ≥ 3 种。
 
+用户复盘偏好：题目对象默认全量展示，不能无说明只画 Top N 或少数省份/分行/样本点；流程图、思维导图、极值标注和图例必须按论文最终尺寸预览，防止文字压框、压线、重叠或出界；图例字号要可读，必要时放到图外；雷达图只有在多维画像是核心结论时使用，否则优先换成权重扫描、贡献条形图、热力图或全量排序图。详见 `references/实战复盘与用户偏好.md`。
+
 ### 第 7 步：自检闭环（三层全过）
 
 1. **语义层**：`tools/figure/references/design/viz_pitfalls.md` 18+ 条避坑清单——图型/配色/误差是否踩坑
@@ -251,4 +253,5 @@ kaleido>=0.2.1         # 可选；plotly 导出
 | 不确定用什么图 | `tools/figure/references/chart-types/chart_selection.md` |
 | 需要图表函数 | `tools/figure/references/api-templates/plot_recipes.md` |
 | 交付前 | `tools/figure/references/quality/publication_checklist.md` |
+| 数学建模用户偏好与既往返工问题 | `references/实战复盘与用户偏好.md` |
 | MATLAB 出版绘图 | `references/roles/编程手/scripts/apply_publication_style.m` + `export_publication_figure.m` |
